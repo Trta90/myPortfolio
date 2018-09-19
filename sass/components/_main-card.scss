@@ -1,0 +1,11 @@
+.main-card{
+    position: relative;
+    width: 48rem;
+    height: 60rem;
+    z-index: 3;
+    background-color: $color-white;
+    border-radius:$border-radius;
+    margin-top: -2rem;
+    box-shadow: $box-shadow-main;
+    
+}
