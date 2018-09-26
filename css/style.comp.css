@@ -85,7 +85,69 @@ body {
   background-color: #fff;
   border-radius: 5px;
   margin-left: -3rem;
-  margin-top: -0.5rem; }
+  margin-top: -0.5rem;
+  display: flex;
+  flex-direction: column; }
+  .side-card__headingBox {
+    position: relative;
+    padding: 1.5rem;
+    padding-left: 6rem;
+    border-bottom: 1px solid rgba(98, 98, 98, 0.2);
+    width: 70%; }
+  .side-card__heading {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #171717; }
+  .side-card__heading-circle {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    top: 2.1rem;
+    left: 4.89rem;
+    background-image: linear-gradient(to bottom right, rgba(46, 202, 127, 0.6), rgba(46, 202, 127, 0.1)); }
+  .side-card__aboutBox {
+    padding: 2rem;
+    margin-left: 5rem;
+    border-left: 1px solid rgba(98, 98, 98, 0.2);
+    margin-bottom: 3.5rem; }
+  .side-card__about {
+    font-size: 1.6rem;
+    font-weight: 400; }
+  .side-card__skills {
+    padding: 3rem;
+    margin-left: 5rem;
+    border-left: 1px solid rgba(98, 98, 98, 0.2);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .side-card__skill {
+    padding: 1rem 0.5rem;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+  .side-card__icon {
+    font-size: 7rem;
+    color: #626262;
+    display: block;
+    margin-bottom: 1.5rem;
+    transition: all 0.6s;
+    text-align: center; }
+    .side-card__icon--first {
+      color: #2eca7f; }
+  .side-card__skill:hover .side-card__icon {
+    transform: rotate(-30deg) scale(1.25);
+    color: #2eca7f; }
+  .side-card__skillHeading {
+    font-size: 1.8rem;
+    color: #171717;
+    font-weight: 400;
+    letter-spacing: 1px; }
+  .side-card__description {
+    font-size: 1.3rem; }
 
 .square {
   background-color: rgba(255, 255, 255, 0.1);
@@ -200,7 +262,8 @@ body {
     .main-card__icon--1 {
       font-size: 1.8rem;
       display: inline-block;
-      margin-left: 1.5rem; }
+      margin-left: 1.5rem;
+      color: #2eca7f; }
   .main-card__contactBox {
     flex: 0 0 10%;
     display: flex;
