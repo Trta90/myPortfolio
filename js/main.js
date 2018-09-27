@@ -1,0 +1,1 @@
+//new SimpleBar(document.getElementsByClassName('scroll'), {hide:true});
